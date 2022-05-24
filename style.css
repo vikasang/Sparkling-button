@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: linear-gradient(90deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+.click{
+    margin-top: 195px;
+    margin-left: 595px;
+}
+canvas {
+    border: 1px soild black;
+}
+.add{
+    
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+    cursor: pointer;
+}
+.add:hover{
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
